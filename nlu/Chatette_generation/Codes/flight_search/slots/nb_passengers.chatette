@@ -1,0 +1,38 @@
+// Slot for the number of people to book a flight for
+// This slot uses arguments
+@[nb_passengers]
+    {seul/tout seul/solo/moi seul/pour moi/pour moi seul} = 1
+    {~[nb$1]/~[nb$une]} personne = 1
+    {~[nb$2]/~[nb$deux]} personnes = 2
+    {~[nb$3]/~[nb$trois]} personnes = 3
+    {~[nb$4]/~[nb$quatres]} personnes = 4
+    {~[nb$5]/~[nb$cinq]} personnes = 5
+    {~[nb$6]/~[nb$six]} personnes = 6
+    {~[nb$1]/~[nb$une]/~[nb$un]} = 1
+    {~[nb$2]/~[nb$deux]} = 2
+    {~[nb$3]/~[nb$trois]} = 3
+    {~[nb$4]/~[nb$quatres]/~[nb$quatres]} = 4
+    {~[nb$5]/~[nb$cinq]} = 5
+    {~[nb$6]/~[nb$six]} = 6
+    ~[ns$ma copine] = 2
+    ~[ns$mon copain] = 2
+    ~[ns$mon pote] = 2
+    {~[ns$mon amie]/~[ns$mon ami]} = 2
+    {~[ns$ma soeur]/~[ns$mon frère]} = 2
+    {~[ns$ma mère]/~[ns$mon père]} = 2
+    {~[ns$ma femme]/~[ns$mon amour]} = 2
+    {~[ns$ma femme et mes deux enfants]/~[ns$ma femme et mes 2 enfants]} = 4
+    {~[ns$2 amis]} = 3
+    {~[ns$deux de mes amis]} = 3
+    {~[ns$3 amis]} = 4
+    {~[ns$trois de mes amis]} = 4
+~[nb$NB]
+    exactement $NB
+    pour $NB
+    pour exactement $NB
+    pour précisemment $NB
+    précisemment $NB
+
+    $NB
+~[ns$NB]
+    avec $NB

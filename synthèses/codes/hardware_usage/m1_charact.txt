@@ -1,0 +1,47 @@
+Chemin matériel  Périphérique  Classe         Description
+============================================================
+                                  system         Latitude E7440 (Latitude E7440)
+/0                                bus            03HFCG
+/0/0                              memory         64KiB BIOS
+/0/42                             processor      Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+/0/42/43                          memory         128KiB L1 cache
+/0/42/44                          memory         512KiB L2 cache
+/0/42/45                          memory         4MiB L3 cache
+/0/46                             memory         8GiB Mémoire Système
+/0/46/0                           memory         4GiB SODIMM DDR3 Synchrone 1600 MHz (0,6 ns)
+/0/46/1                           memory         4GiB SODIMM DDR3 Synchrone 1600 MHz (0,6 ns)
+/0/100                            bridge         Haswell-ULT DRAM Controller
+/0/100/2                          display        Haswell-ULT Integrated Graphics Controller
+/0/100/3                          multimedia     Haswell-ULT HD Audio Controller
+/0/100/14                         bus            8 Series USB xHCI HC
+/0/100/14/0       usb2            bus            xHCI Host Controller
+/0/100/14/0/4                     multimedia     Laptop_Integrated_Webcam_HD
+/0/100/14/1       usb3            bus            xHCI Host Controller
+/0/100/16                         communication  8 Series HECI #0
+/0/100/19         eno1            network        Ethernet Connection I218-LM
+/0/100/1b                         multimedia     8 Series HD Audio Controller
+/0/100/1c                         bridge         8 Series PCI Express Root Port 1
+/0/100/1c.3                       bridge         8 Series PCI Express Root Port 4
+/0/100/1c.3/0     wlp2s0          network        Wireless 7260
+/0/100/1c.4                       bridge         8 Series PCI Express Root Port 5
+/0/100/1c.4/0                     generic        SD/MMC Card Reader Controller
+/0/100/1d                         bus            8 Series USB EHCI #1
+/0/100/1d/1       usb1            bus            EHCI Host Controller
+/0/100/1d/1/1                     bus            Concentrateur USB
+/0/100/1d/1/1/5                   generic        5880
+/0/100/1f                         bridge         8 Series LPC Controller
+/0/100/1f.2                       storage        8 Series SATA Controller 1 [AHCI mode]
+/0/100/1f.3                       bus            8 Series SMBus Controller
+/0/1              scsi1           storage        
+/0/1/0.0.0        /dev/sda        disk           500GB ST500LM021-1KJ15
+/0/1/0.0.0/1      /dev/sda1       volume         511MiB Windows FAT volume
+/0/1/0.0.0/2      /dev/sda2       volume         464GiB Volume EXT4
+/0/1/0.0.0/3      /dev/sda3       volume         975MiB Linux swap volume
+/0/2              scsi3           storage        
+/0/2/0.0.0        /dev/sdb        disk           128GB TOSHIBA THNSNF12
+/0/2/0.0.0/1      /dev/sdb1       volume         62GiB Volume EXT4
+/0/2/0.0.0/2      /dev/sdb2       volume         57GiB Extended partition
+/0/2/0.0.0/2/5    /dev/sdb5       volume         976MiB Linux swap / Solaris partition
+/0/2/0.0.0/2/6    /dev/sdb6       volume         56GiB Linux filesystem partition
+/1                                power          DELL K8J4357
+/2                                power          To Be Filled By O.E.M.

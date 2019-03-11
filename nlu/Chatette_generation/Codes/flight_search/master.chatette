@@ -1,0 +1,90 @@
+// Flight booking sentences
+%[flight_search]('train': '16', 'test': '4')
+    // Exemple1
+    {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche/veux/souhaite/cherch/souhait/vais prendre/prends/prend/aimerai} un {billet/vol} {depuis/de/en partant de/en allant de/origine de/origine/provenance/depuis le/depuis les} @[origin] {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] @[one_way]
+    //
+    //Exemple2
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche/veux/souhaite/cherch/souhait/vais prendre/prends/prend/aimerai} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] {à/vers/à destination de/pour/à destination/destination/en/vers le/vers les/aux/au/direction} @[destination] ~[for nb people] @[round_trip]
+    //
+    //Exemple3
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] ~[for nb people] @[one_way] {je /Je /J'/j'}{cherche/veux/souhaite/cherch/souhait/vais prendre/prends/prend/aimerai} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] 
+    //
+    //Exemple4
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {je /Je /J'/j'}{veux/souhaite/cherche à /souhait/vais/cherch à/aimerai} {aller/partir} {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] @[round_trip]
+    //
+    //Exemple5
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais/aimerai} {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] ~[for nb people] @[one_way]
+    //
+    //Exemple6
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais/aimerai} {aller/partir/voyager} ~[for nb people2] {à/vers/à destination de/pour/à destination/destination/vers les/ à destination des/aux/en/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] @[one_way]
+    //
+    // Exemple7
+    //
+    ~[for nb people2] {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais/aimerai} {aller/partir/voyager}  {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] @[round_trip]
+    //
+    // Exemple8
+    //
+    ~[for nb people] {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais} {aller/partir/voyager}  {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin]
+    //
+    //Exemple9
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} ~[for nb people2] {je /Je /j'/J'}{veux/souhaite/cherche à /souhait/vais/cherch à/aimerai} {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin]
+    //
+    //Exemple10
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} ~[for nb people] {je /Je /j'/J'}{veux/souhaite/cherche à /souhait/vais/cherch à/aimerai} {aller/partir/voyage} {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin]
+    //
+    //Exemple11
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} ~[for nb people] @[round_trip] {je /Je /j'/J'}{cherche/veux/souhaite/cherch/souhait/vais prendre/prends/prend/aimerai} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination]
+    //
+    //Exemple12
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} ~[for nb people] @[round_trip] {je /Je /j'/J'}{cherche/veux/souhaite/cherch/souhait/vais prendre/prends/prend/aimerai} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les/direction} @[origin]
+    //
+    //Exemple13
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} ~[temps] ~[for nb people] {je /Je /j'/J'}{veux/souhaite/cherche à /souhait/vais/cherch à/aimerai} {aller/partir/voyage} {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les/direction} @[origin]
+    //
+    //Exemple14
+    //
+    ~[for nb people] {~[greeting?]~[comma?]/~[greeting?]} {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais} {aller/partir/voyager}  {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] ~[temps]
+    //
+    //Exemple15
+    //
+    ~[temps]~[comma?] {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais} {aller/partir/voyager}  {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin]
+    //
+    //Exemple16
+    //
+    {je /Je /j'/J'}{cherche à /veux/souhaite/cherch à /souhait/vais} {aller/partir/voyager}  {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] ~[temps]
+    //
+    //Exemple17
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} ~[for nb people] @[round_trip] {je /Je /j'/J'}{cherche/veux/souhaite/cherch/souhait/vais prendre/prends/prend/aimerai} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les/direction} @[origin] ~[temps]
+// Flight_search sous forme de questions : 
+///////////////////////////////////////
+%[flight_search]('train': '4')
+    //
+    //Exemple1
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {Y'a t-il/ est ce que tu peux me trouver/ya t il/y a t il/est ce qu'il y'a/est ce qu'il ya/trouve moi/cherche moi/y a-t-il/peux tu me trouver/Tu aurais/aurais tu} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] @[one_way]
+    //
+    //Exemple2
+    //
+    {~[greeting?]~[comma?]/~[greeting?]} {Y'a t-il/ est ce que tu peux me trouver/ya t il/y a t il/est ce qu'il y'a/est ce qu'il ya/trouve moi/cherche moi/y a-t-il/peux tu me trouver/Tu aurais/aurais tu} un {billet/vol} {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] @[round_trip]
+    //Exemple3
+    {~[greeting?]~[comma?]/~[greeting?]} {Y'a t-il/ est ce que tu peux me trouver/ya t il/y a t il/est ce qu'il y'a/est ce qu'il ya/trouve moi/cherche moi/y a-t-il/peux tu me trouver/Tu aurais/aurais tu} un {billet/vol} ~[temps?] {à/vers/à destination de/pour/destination/à destination/destination/aux/ pour aller aux/en/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin]
+    //Exemple4
+    {~[greeting?]~[comma?]/~[greeting?]} {Y'a t-il/ est ce que tu peux me trouver/ya t il/y a t il/est ce qu'il y'a/est ce qu'il ya/trouve moi/cherche moi/y a-t-il/peux tu me trouver/Tu aurais/aurais tu} un {billet/vol} {à/vers/à destination de/pour/destination/à destination/destination/aux/en/à destination des/vers les/au/direction} @[destination] {depuis/de/en partant de/en allant de/ origine de/origine/provenance/ depuis les} @[origin] ~[temps?]
+
+|slots/discover_category.chatette
+|slots/type_flight.chattete
+|aliases.chatette
+|slots/cities.chatette
+|slots/nb_passengers.chatette
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,58 @@
+Chemin matériel         Périphérique   Classe         Description
+====================================================================
+                                          system         HP Pavilion Notebook (4JX02EA#ABF)
+/0                                        bus            84F7
+/0/0                                      memory         64KiB BIOS
+/0/10                                     memory         8GiB Mémoire Système
+/0/10/0                                   memory         SODIMMProject-Id-Version: @(#) $Id$Report-Msgid-Bugs-To: PO-Revision-Date: 2016-09-03 00:48+0000Last-Translator: Lyonel Vincent <Unknown>Language-Team: MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2018-07-12 13:19+0000X-Generator: Launchpad (build 18719) [vide]
+/0/10/1                                   memory         8GiB SODIMM DDR4 Synchrone Unbuffered (Unregistered) 2667 MHz (0,4 ns)
+/0/14                                     memory         256KiB L1 cache
+/0/15                                     memory         1MiB L2 cache
+/0/16                                     memory         6MiB L3 cache
+/0/17                                     processor      Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+/0/100                                    bridge         Intel Corporation
+/0/100/2                                  display        Intel Corporation
+/0/100/4                                  generic        Skylake Processor Thermal Subsystem
+/0/100/14                                 bus            Sunrise Point-LP USB 3.0 xHCI Controller
+/0/100/14/0              usb1             bus            xHCI Host Controller
+/0/100/14/0/2            scsi3            storage        USB Disk
+/0/100/14/0/2/0.0.0      /dev/sdc         disk           31GB USB Disk
+/0/100/14/0/2/0.0.0/0    /dev/sdc         disk           31GB 
+/0/100/14/0/2/0.0.0/0/1  /dev/sdc1        volume         29GiB Windows FAT volume
+/0/100/14/0/3                             multimedia     HP Wide Vision HD
+/0/100/14/0/7                             communication  Bluetooth Radio
+/0/100/14/1              usb2             bus            xHCI Host Controller
+/0/100/14.2                               generic        Sunrise Point-LP Thermal subsystem
+/0/100/16                                 communication  Sunrise Point-LP CSME HECI #1
+/0/100/17                                 storage        82801 Mobile SATA Controller [RAID mode]
+/0/100/1c                                 bridge         Intel Corporation
+/0/100/1c/0                               display        GP107M [GeForce GTX 1050 Mobile]
+/0/100/1c.4                               bridge         Sunrise Point-LP PCI Express Root Port #5
+/0/100/1c.4/0            wlo1             network        Realtek Semiconductor Co., Ltd.
+/0/100/1c.5                               bridge         Sunrise Point-LP PCI Express Root Port #6
+/0/100/1c.5/0            eno1             network        RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+/0/100/1c.7                               bridge         Sunrise Point-LP PCI Express Root Port #8
+/0/100/1c.7/0                             generic        RTS522A PCI Express Card Reader
+/0/100/1f                                 bridge         Intel Corporation
+/0/100/1f.2                               memory         Memory controller
+/0/100/1f.3                               multimedia     Intel Corporation
+/0/100/1f.4                               bus            Sunrise Point-LP SMBus
+/0/1                     scsi0            storage        
+/0/1/0.0.0               /dev/sda         disk           1TB ST1000LM035-1RK1
+/0/1/0.0.0/1             /dev/sda1        volume         699GiB Windows NTFS volume
+/0/1/0.0.0/2             /dev/sda2        volume         14GiB Windows NTFS volume
+/0/1/0.0.0/3             /dev/sda3        volume         512MiB Windows FAT volume
+/0/1/0.0.0/4             /dev/sda4        volume         209GiB Volume EXT4
+/0/1/0.0.0/5             /dev/sda5        volume         8070MiB Linux swap volume
+/0/2                     scsi2            storage        
+/0/2/0.0.0               /dev/sdb         disk           128GB SAMSUNG MZNLN128
+/0/2/0.0.0/1             /dev/sdb1        volume         259MiB Windows FAT volume
+/0/2/0.0.0/2             /dev/sdb2        volume         15MiB reserved partition
+/0/2/0.0.0/3             /dev/sdb3        volume         118GiB Windows NTFS volume
+/0/2/0.0.0/4             /dev/sdb4        volume         979MiB Windows NTFS volume
+/1                                        power          TE03061
+/2                       br-433597e83742  network        Ethernet interface
+/3                       docker0          network        Ethernet interface
+/4                       docker_gwbridge  network        Ethernet interface
+/5                       br-46c47121f16d  network        Ethernet interface
+/6                       veth718a15b      network        Ethernet interface

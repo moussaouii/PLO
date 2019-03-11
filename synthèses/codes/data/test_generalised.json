@@ -1,0 +1,1341 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "end": 4,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "5"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 19,
+            "value": "Bhojpur"
+          },
+          {
+            "end": 49,
+            "entity": "origin",
+            "start": 40,
+            "value": "Enontekio"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "cinq Je aimerai au Bhojpur en allant de Enontekio"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "6"
+          },
+          {
+            "end": 40,
+            "entity": "round_trip",
+            "start": 28,
+            "value": "aller retour"
+          },
+          {
+            "end": 73,
+            "entity": "origin",
+            "start": 66,
+            "value": "Dasoguz"
+          },
+          {
+            "end": 100,
+            "entity": "destination",
+            "start": 86,
+            "value": "Calbayog Ville"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement 6 personnes aller retour j'veux un vol depuis les Dasoguz destination Calbayog Ville"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "4"
+          },
+          {
+            "end": 49,
+            "entity": "destination",
+            "start": 39,
+            "value": "Salzgitter"
+          },
+          {
+            "end": 70,
+            "entity": "origin",
+            "start": 61,
+            "value": "Nepalgunj"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "exactement quatres Je veux partir vers Salzgitter depuis les Nepalgunj"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 40,
+            "entity": "destination",
+            "start": 35,
+            "value": "Dubaï"
+          },
+          {
+            "end": 52,
+            "entity": "origin",
+            "start": 44,
+            "value": "Redlands"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec ma soeur J'cherch à  partir à Dubaï de Redlands le mois prochain"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "destination",
+            "start": 34,
+            "value": "Dans le vermont"
+          },
+          {
+            "end": 69,
+            "entity": "origin",
+            "start": 61,
+            "value": "Akureyri"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "! est ce qu'il y'a un billet pour Dans le vermont origine de Akureyri"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "3"
+          },
+          {
+            "end": 57,
+            "entity": "destination",
+            "start": 51,
+            "value": "Leknes"
+          },
+          {
+            "end": 72,
+            "entity": "origin",
+            "start": 69,
+            "value": "Ann"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec deux de mes amis Bonjour J'souhaite aller aux Leknes origine de Ann ce mois-ci"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "entity": "nb_passengers",
+            "start": 5,
+            "value": "4"
+          },
+          {
+            "end": 54,
+            "entity": "destination",
+            "start": 46,
+            "value": "Centrale"
+          },
+          {
+            "end": 71,
+            "entity": "origin",
+            "start": 62,
+            "value": "Egelsbach"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bsr! pour quatres J'souhait aller destination Centrale depuis Egelsbach"
+      },
+      {
+        "entities": [
+          {
+            "end": 35,
+            "entity": "origin",
+            "start": 30,
+            "value": "Izmir"
+          },
+          {
+            "end": 75,
+            "entity": "destination",
+            "start": 41,
+            "value": "Mackenzie, En Colombie-Britannique"
+          },
+          {
+            "end": 80,
+            "entity": "nb_passengers",
+            "start": 76,
+            "value": "1"
+          },
+          {
+            "end": 92,
+            "entity": "round_trip",
+            "start": 81,
+            "value": "AllerRetour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Je prend un vol en partant de Izmir pour Mackenzie, En Colombie-Britannique seul AllerRetour"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 64,
+            "entity": "destination",
+            "start": 54,
+            "value": "Maidenhead"
+          },
+          {
+            "end": 83,
+            "entity": "origin",
+            "start": 76,
+            "value": "Okayama"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec ma copine wesh je souhait aller à destination de Maidenhead provenance Okayama"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "origin",
+            "start": 33,
+            "value": "Sainte-Marie"
+          },
+          {
+            "end": 60,
+            "entity": "destination",
+            "start": 51,
+            "value": "Cape Town"
+          },
+          {
+            "end": 75,
+            "entity": "nb_passengers",
+            "start": 61,
+            "value": "1"
+          },
+          {
+            "end": 109,
+            "entity": "round_trip",
+            "start": 76,
+            "value": "entre le 20 juillet et 19 juillet"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "wesh Je prends un vol provenance Sainte-Marie pour Cape Town exactement une entre le 20 juillet et 19 juillet"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "destination",
+            "start": 30,
+            "value": "Sodankyla"
+          },
+          {
+            "end": 59,
+            "entity": "origin",
+            "start": 51,
+            "value": "Saravane"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonsoir Y'a t-il un billet au Sodankyla depuis les Saravane"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 59,
+            "entity": "destination",
+            "start": 53,
+            "value": "Kulyab"
+          },
+          {
+            "end": 72,
+            "entity": "origin",
+            "start": 67,
+            "value": "Fosse"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec ma copine bjr J'cherche à  partir à destination Kulyab depuis Fosse pour cette semaine"
+      },
+      {
+        "text": "un billet au mexique du 02/03/2018 au 18/03/2018",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "mexique",
+            "entity": "destination"
+          },
+          {
+            "start": 21,
+            "end": 48,
+            "value": "du 02/03/2018 au 18/03/2018",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "trouve moi un vol vers rennes avec mon frère",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 44,
+            "value": "2",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "rennes",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "un billet aller simple de grenoble pour 2 jours",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "grenoble",
+            "entity": "origin"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "2",
+            "entity": "flexibility"
+          }
+        ]
+      },
+      {
+        "text": "de toulouse vers bruxelle pour 6 personnes ce week-end",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "bruxelle",
+            "entity": "destination"
+          },
+          {
+            "start": 3,
+            "end": 11,
+            "value": "toulouse",
+            "entity": "origin"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "6",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "vol simple tout seul ",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "1",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 4,
+            "end": 10,
+            "value": "simple",
+            "entity": "one_way"
+          }
+        ]
+      },
+      {
+        "text": "je veux aller de paris à madrid",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "madrid",
+            "entity": "destination"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "paris",
+            "entity": "origin"
+          }
+        ]
+      },
+      {
+        "text": "j'aimerai partir à Lyon  de Barcelone  avec un ami ",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Barcelone",
+            "entity": "origin"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "Lyon",
+            "entity": "destination"
+          },
+          {
+            "start": 39,
+            "end": 51,
+            "value": "2",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "je cherche un vol aller retour de Tanger à New York avec ma copine ",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Tanger",
+            "entity": "origin"
+          },
+          {
+            "start": 43,
+            "end": 52,
+            "value": "New York ",
+            "entity": "destination"
+          },
+          {
+            "start": 52,
+            "end": 66,
+            "value": "2",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "vers fukushima entre mars et avril",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "fukushima",
+            "entity": "destination"
+          },
+          {
+            "start": 15,
+            "end": 34,
+            "value": "entre mars et avril",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "de lille vers houston pour 3",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "lille",
+            "entity": "origin"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "houston",
+            "entity": "destination"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "3",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "un billet tout seul vers osaka",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "osaka",
+            "entity": "destination"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "1",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "avec mes parents de casablanca",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "casablanca",
+            "entity": "origin"
+          },
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "un vol de Rabat à LA avec ma femme et mes deux enfans  aller retour",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "Rabat",
+            "entity": "origin"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "LA",
+            "entity": "destination"
+          },
+          {
+            "start": 26,
+            "end": 54,
+            "value": "3",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 55,
+            "end": 67,
+            "value": "aller retour",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "vers Marseille  pour moi ce week-end ",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "Marseille",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "trouve moi un billet pour 10 personnes du 02/10/2016 au 15/12/2016 vers algerie",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "10",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "value": "algerie",
+            "entity": "destination"
+          },
+          {
+            "start": 39,
+            "end": 66,
+            "value": "du 02/10/2016 au 15/12/2016",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "y a t-il des vols simple pour Bordeaux",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Bordeaux",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "un billet pour 2 potes à partir de liverpool vers chicago. Un aller simple.",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 50,
+            "end": 57,
+            "value": "chicago",
+            "entity": "destination"
+          },
+          {
+            "start": 35,
+            "end": 44,
+            "value": "liverpool",
+            "entity": "origin"
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "2",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 62,
+            "end": 74,
+            "value": "aller simple",
+            "entity": "one_way"
+          }
+        ]
+      },
+      {
+        "text": "vol de saint-valentin vers tanger  avec ma femme",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "tanger",
+            "entity": "origin"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "tanger",
+            "entity": "destination"
+          },
+          {
+            "start": 35,
+            "end": 48,
+            "value": "2",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "value": "romantic",
+            "entity": "discover_category"
+          }
+        ]
+      },
+      {
+        "text": "de Toulouse à Paris avec Chrifa ",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Toulouse",
+            "entity": "origin"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Paris",
+            "entity": "destination"
+          },
+          {
+            "start": 20,
+            "end": 32,
+            "value": "2",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "vol aller retour de Prague à Oujda  avec Moussaoui ",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Prague",
+            "entity": "origin"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Oujda ",
+            "entity": "destination"
+          },
+          {
+            "start": 36,
+            "end": 51,
+            "value": "2",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "Lord veut aller  de Paris à ELJADIDA, je veux un billet simple",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "ELJADIDA",
+            "entity": "destination"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Paris",
+            "entity": "origin"
+          },
+          {
+            "start": 56,
+            "end": 62,
+            "value": "simple",
+            "entity": "one_way"
+          }
+        ]
+      },
+      {
+        "text": "vol de lille vers Rennes  entre le 09/12/2017 et 15/12/2017",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Rennes",
+            "entity": "destination"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "lille",
+            "entity": "origin"
+          },
+          {
+            "start": 26,
+            "end": 59,
+            "value": "entre le 09/12/2017 et 15/12/2017",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "y a-t-il un vol pour l'algérie ce week end pour moins de 50 euros?",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "algérie",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "Je veux partir avec 4 amis à new york en avril pendant les vacances de pâques",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "5",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "new york",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "trouve moi le vol le moins cher ce week end pour 2 personnes  un aller retour pour aller de toulouse à paris",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 92,
+            "end": 100,
+            "value": "toulouse",
+            "entity": "origin"
+          },
+          {
+            "start": 103,
+            "end": 108,
+            "value": "paris",
+            "entity": "destination"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "value": "2",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 65,
+            "end": 77,
+            "value": "aller retour",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "casa toulouse pas cher",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "casa",
+            "entity": "origin"
+          },
+          {
+            "start": 5,
+            "end": 13,
+            "value": "toulouse",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "salut, je veux un billet pour rio pour 2",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 33,
+            "value": "rio",
+            "entity": "destination"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "2",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "je cherche un voyage en amoureux dans trois semaine en italie",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "Romantic",
+            "entity": "discover_category"
+          },
+          {
+            "start": 55,
+            "end": 61,
+            "value": "italie",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "Un billet pour le 5 avril aller simple avec ma copine au bahamas",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 57,
+            "end": 64,
+            "value": "bahamas",
+            "entity": "destination"
+          },
+          {
+            "start": 39,
+            "end": 53,
+            "value": "2",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "aller simple",
+            "entity": "one_way"
+          }
+        ]
+      },
+      {
+        "text": "Salut ! j’aimerai célébrer mon anniversaire en italie seul",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Party",
+            "entity": "discover_category"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "italie",
+            "entity": "destination"
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "1",
+            "entity": "nb_passengers"
+          }
+        ]
+      },
+      {
+        "text": "Yo! trouve moi un vol pour 2 adultes en mars au maroc",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "2",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "maroc",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "Je veux aller aux Maldives la semaine prochaine et revenir fin mars",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Maldives",
+            "entity": "destination"
+          },
+          {
+            "start": 30,
+            "end": 67,
+            "value": "semaine prochaine et revenir fin mars",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "Pour 3 personnes , je cherche un vol à Fes",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "Fes",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "Je veux célébrer à Berlin",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Berlin",
+            "entity": "destination"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Party",
+            "entity": "discover_category"
+          }
+        ]
+      },
+      {
+        "text": "Est ce qu’il y a des vols aller retour pas chers pour lille ce week end en partant de toulouse?",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 54,
+            "end": 59,
+            "value": "lille",
+            "entity": "destination"
+          },
+          {
+            "start": 86,
+            "end": 94,
+            "value": "toulouse",
+            "entity": "origin"
+          }
+        ]
+      },
+      {
+        "text": "Je veux faire la fête cette année à malte ou en grèce, de préférence en juillet et revenir en septembre",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "Party",
+            "entity": "discover_category"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "Europe",
+            "entity": "discover_category"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Europe",
+            "entity": "discover_category"
+          },
+          {
+            "start": 69,
+            "end": 103,
+            "value": "en juillet et revenir en septembre",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "Salut ! je compte partir en vacances au mois d’avril avec ma famille. Nous sommes 4 et nous aimerions visiter new york",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 70,
+            "end": 83,
+            "value": "4",
+            "entity": "nb_passengers"
+          },
+          {
+            "start": 110,
+            "end": 118,
+            "value": "new york",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "Bonsoir ! j’vais pour zagreb",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "zagreb",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "ça me dirai bien d’aller en croatie cet été. t’as des billets simples à me proposer ?",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "Europe",
+            "entity": "discover_category"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "croatie",
+            "entity": "destination"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "value": "simples",
+            "entity": "one_way"
+          }
+        ]
+      },
+      {
+        "text": "Je veux aller au portugal avec 2 de mes amis dans deux semaines. On aimerait partir de paris ou de toulouse ou de bordeaux.",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 87,
+            "end": 92,
+            "value": "paris",
+            "entity": "origin"
+          },
+          {
+            "start": 99,
+            "end": 107,
+            "value": "toulouse",
+            "entity": "origin"
+          },
+          {
+            "start": 114,
+            "end": 122,
+            "value": "bordeaux",
+            "entity": "origin"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "portugal",
+            "entity": "destination"
+          }
+        ]
+      },
+      {
+        "text": "Salut! t'as un billet simple pour 10 jours vers l'australie. On peut partir de lyon ou de lille.Je préfere un billet entre le 15 mars et 20 mars.",
+        "intent": "flight_search",
+        "entities": [
+          {
+            "start": 50,
+            "end": 59,
+            "value": "australie",
+            "entity": "destination"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "10",
+            "entity": "flexibility"
+          },
+          {
+            "start": 79,
+            "end": 83,
+            "value": "lyon",
+            "entity": "origin"
+          },
+          {
+            "start": 90,
+            "end": 95,
+            "value": "lille",
+            "entity": "origin"
+          },
+          {
+            "start": 117,
+            "end": 144,
+            "value": "entre le 15 mars et 20 mars",
+            "entity": "round_trip"
+          }
+        ]
+      },
+      {
+        "text": "Salut ! est ce que ça va?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bonjour monsieur",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "comment allez-vous",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "vous allez bien?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Yo !",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "salut ! ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bonsoir les amis",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "vous passez une bonne journéé monsieur?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "cv?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "slt est ce que ça va?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bjr",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bjr mademoiselle",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "salut monsieur cv?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bonsoir mon ami ça va bien?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "non ca ne me plaît pas",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "non monsieur",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "je ne veux pas",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "négative",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "c'est incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect monsieur je ne veux pas ça",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "ce vol n'est pas intéressant",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "je ne veux pas ce vol",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "je ne suis pas d'accord",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "ce résultat ne me plaît pas",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "je n'accepte pas",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "c'est intéressant ",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "je suis d'accord",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "d'accord ",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "oui je suis d'accord",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "parfait",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "c'est ça",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "d'accord c'est ça",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "exactement ça",
+        "intent": "affirmative",
+        "entities": []
+      }
+    ]
+  }
+}

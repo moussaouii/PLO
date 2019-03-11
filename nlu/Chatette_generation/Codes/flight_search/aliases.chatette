@@ -1,0 +1,87 @@
+~[greeting]
+    salut
+    Salut
+    slt
+    wesh
+    Wesh
+    Bonjour
+    bonjour
+    bjr
+    Bonsoir
+    bonsoir
+    bsr
+~[number]
+    1
+    un
+    deux
+    2
+    trois
+    3
+    7
+    10
+    8
+    vingt
+    20
+    25
+    huit
+    dix  
+~[year]
+    2019
+    2020
+    2021
+~[comma]
+    ,
+    .
+    !
+    ;
+~[for nb people]
+	{@[nb_passengers$seul]/@[nb_passengers$tout seul]/@[nb_passengers$solo]/@[nb_passengers$moi seul]/@[nb_passengers$pour moi]/@[nb_passengers$pour moi seul]}
+	{@[nb_passengers$une]/@[nb_passengers$1]/@[nb_passengers$une]}
+	{@[nb_passengers$deux]/@[nb_passengers$2]}
+	{@[nb_passengers$trois]/@[nb_passengers$3]}
+	{@[nb_passengers$quatres]/@[nb_passengers$4]}
+	{@[nb_passengers$cinq]/@[nb_passengers$5]}
+	{@[nb_passengers$six]/@[nb_passengers$6]}
+~[for nb people2]
+	@[nb_passengers$ma mère]
+	@[nb_passengers$mon frère]
+	@[nb_passengers$ma soeur]
+	@[nb_passengers$mon père]
+	@[nb_passengers$ma femme]
+	@[nb_passengers$mon amour]
+	@[nb_passengers$ma copine]
+	@[nb_passengers$mon copain]
+	@[nb_passengers$mon pote]
+	{@[nb_passengers$mon amie]/@[nb_passengers$mon ami]}
+	{@[nb_passengers$ma femme et mes deux enfants]/@[nb_passengers$ma femme et mes 2 enfants]}
+	{@[nb_passengers$2 amis]/@[nb_passengers$deux de mes amis]}
+	{@[nb_passengers$trois de mes amis]/@[nb_passengers$3 amis]}
+~[temps]
+    ce mois-ci
+    cette semaine
+    pour cette semaine
+    dans deux mois
+    dans 2 mois
+    dans 3 mois
+    pour les vacances de Paques
+    le mois prochain
+    ce week-end
+    le week prochain
+    le weekend prochain
+    ce weekend
+    la semaine prochaine
+    dans deux semaines
+~[for nb people2]
+    @[nb_passengers$ma mère]
+    @[nb_passengers$mon frère]
+    @[nb_passengers$ma soeur]
+    @[nb_passengers$mon père]
+    @[nb_passengers$ma femme]
+    @[nb_passengers$mon amour]
+    @[nb_passengers$ma copine]
+    @[nb_passengers$mon copain]
+    @[nb_passengers$mon pote]
+    {@[nb_passengers$mon amie]/@[nb_passengers$mon ami]}
+    {@[nb_passengers$ma femme et mes deux enfants]/@[nb_passengers$ma femme et mes 2 enfants]}
+    {@[nb_passengers$2 amis]/@[nb_passengers$deux de mes amis]}
+    {@[nb_passengers$trois de mes amis]/@[nb_passengers$3 amis]}

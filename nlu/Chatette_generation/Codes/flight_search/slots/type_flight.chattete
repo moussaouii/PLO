@@ -1,0 +1,78 @@
+@[one_way]
+    le ~[day] ~[month]
+    le ~[day]/~[monthnum]
+    le ~[day]/~[monthnum]/~[year]
+    le ~[day] ~[month] ~[year]
+    AllerSimple
+    allersimple
+    aller simple
+    aller-simple
+    allersimple
+    juste l'aller
+@[round_trip]
+    entre le ~[day] ~[month] et ~[day] ~[month]
+    du ~[day] ~[month] au ~[day] ~[month]
+    AllerRetour
+    aller-retour
+    Aller-Retour
+    Aller retour
+    aller retour
+~[day]
+    01
+    02
+    03
+    04
+    05
+    06
+    07
+    08
+    09
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+~[monthnum]
+    01
+    02
+    03
+    04
+    05
+    06
+    07
+    08
+    09
+    10
+    11
+    12
+~[month]
+	janvier
+	février
+	mars
+	avril
+	mai
+	juin
+	juillet
+	août
+	septembre
+	octobre
+	novembre
+	décembre
+~[year]
+    2019
+    2020
+    2021

@@ -1,0 +1,114 @@
+[
+    {
+        "text": "vol simple tout seul ",
+        "intent_prediction": {
+            "name": "affirmative",
+            "confidence": 0.5208745188858233
+        },
+        "intent": "flight_search"
+    },
+    {
+        "text": "Bonsoir ! j’vais pour zagreb",
+        "intent_prediction": {
+            "name": "greet",
+            "confidence": 0.7877229750233
+        },
+        "intent": "flight_search"
+    },
+    {
+        "text": "Bonjour monsieur",
+        "intent_prediction": {
+            "name": "affirmative",
+            "confidence": 0.282407774304298
+        },
+        "intent": "greet"
+    },
+    {
+        "text": "bonsoir les amis",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.9999238822730984
+        },
+        "intent": "greet"
+    },
+    {
+        "text": "vous passez une bonne journéé monsieur?",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.7572625534726661
+        },
+        "intent": "greet"
+    },
+    {
+        "text": "slt est ce que ça va?",
+        "intent_prediction": {
+            "name": "affirmative",
+            "confidence": 0.35953222953428754
+        },
+        "intent": "greet"
+    },
+    {
+        "text": "bjr",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.8159446246632832
+        },
+        "intent": "greet"
+    },
+    {
+        "text": "bonsoir mon ami ça va bien?",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.4615089912938231
+        },
+        "intent": "greet"
+    },
+    {
+        "text": "négative",
+        "intent_prediction": {
+            "name": "affirmative",
+            "confidence": 0.5044079097830211
+        },
+        "intent": "negative"
+    },
+    {
+        "text": "c'est incorrect",
+        "intent_prediction": {
+            "name": "affirmative",
+            "confidence": 0.6693646169862454
+        },
+        "intent": "negative"
+    },
+    {
+        "text": "je suis d'accord",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.7049053571524071
+        },
+        "intent": "affirmative"
+    },
+    {
+        "text": "d'accord ",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.994971404261607
+        },
+        "intent": "affirmative"
+    },
+    {
+        "text": "oui je suis d'accord",
+        "intent_prediction": {
+            "name": "negative",
+            "confidence": 0.6356361996539139
+        },
+        "intent": "affirmative"
+    },
+    {
+        "text": "d'accord c'est ça",
+        "intent_prediction": {
+            "name": "flight_search",
+            "confidence": 0.536346235920337
+        },
+        "intent": "affirmative"
+    }
+]
