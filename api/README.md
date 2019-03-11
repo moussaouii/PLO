@@ -107,7 +107,7 @@ and data that contains :
  as follows:
 ```
 {
-	"message": "Bsr Je veux aller à Auch depuis Nice 2019",
+	"message": "Bsr Je veux aller à Auch depuis Nice",
 	"token" : "hwvTzW7FJTwEA4XTVNxkWRApa0srOQYu",
 	"request_info" : { "user_id" : "1234" }
 }
