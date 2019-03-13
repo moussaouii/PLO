@@ -1,0 +1,2753 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "end": 32,
+            "entity": "nb_passengers",
+            "start": 18,
+            "value": "1"
+          },
+          {
+            "end": 46,
+            "entity": "destination",
+            "start": 38,
+            "value": "Rancagua"
+          },
+          {
+            "end": 75,
+            "entity": "origin",
+            "start": 61,
+            "value": "Tanjung Pinang"
+          },
+          {
+            "end": 89,
+            "entity": "one_way",
+            "start": 76,
+            "value": "juste l'aller"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "je souhaite aller exactement une vers Rancagua en partant de Tanjung Pinang juste l'aller"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "entity": "destination",
+            "start": 41,
+            "value": "Tin City"
+          },
+          {
+            "end": 59,
+            "entity": "origin",
+            "start": 53,
+            "value": "Brasov"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Le weekend prochain, je souhait aller au Tin City de Brasov"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 63,
+            "entity": "destination",
+            "start": 45,
+            "value": "Arc-En-Ciel Du Lac"
+          },
+          {
+            "end": 87,
+            "entity": "origin",
+            "start": 75,
+            "value": "Big Mountain"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour 2 bonsoir je cherch à  voyager vers les Arc-En-Ciel Du Lac provenance Big Mountain ce week-end"
+      },
+      {
+        "entities": [
+          {
+            "end": 50,
+            "entity": "nb_passengers",
+            "start": 37,
+            "value": "2"
+          },
+          {
+            "end": 80,
+            "entity": "destination",
+            "start": 72,
+            "value": "Laupheim"
+          },
+          {
+            "end": 97,
+            "entity": "origin",
+            "start": 92,
+            "value": "Penza"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir. pour les vacances de Paques avec ma femme J'cherch à voyage en Laupheim depuis les Penza"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "entity": "destination",
+            "start": 20,
+            "value": "Vigo"
+          },
+          {
+            "end": 44,
+            "entity": "origin",
+            "start": 38,
+            "value": "Mutoko"
+          },
+          {
+            "end": 59,
+            "entity": "nb_passengers",
+            "start": 45,
+            "value": "2"
+          },
+          {
+            "end": 78,
+            "entity": "one_way",
+            "start": 60,
+            "value": "le 08 juillet 2020"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir j'vais vers Vigo en allant de Mutoko avec ma copine le 08 juillet 2020"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "6"
+          },
+          {
+            "end": 79,
+            "entity": "destination",
+            "start": 69,
+            "value": "Zelienople"
+          },
+          {
+            "end": 96,
+            "entity": "origin",
+            "start": 88,
+            "value": "Piestany"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement 6 personnes bjr j'cherche à  partir à destination de Zelienople origine Piestany ce mois-ci"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "destination",
+            "start": 29,
+            "value": "Enontekio"
+          },
+          {
+            "end": 52,
+            "entity": "origin",
+            "start": 42,
+            "value": "Monte Real"
+          },
+          {
+            "end": 74,
+            "entity": "nb_passengers",
+            "start": 53,
+            "value": "3"
+          },
+          {
+            "end": 87,
+            "entity": "one_way",
+            "start": 75,
+            "value": "aller-simple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Salut je souhait destination Enontekio de Monte Real avec deux de mes amis aller-simple"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 61,
+            "entity": "destination",
+            "start": 56,
+            "value": "Omaha"
+          },
+          {
+            "end": 78,
+            "entity": "origin",
+            "start": 73,
+            "value": "Gomel"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement deux j'souhaite partir à destination de Omaha depuis les Gomel"
+      },
+      {
+        "entities": [
+          {
+            "end": 28,
+            "entity": "nb_passengers",
+            "start": 6,
+            "value": "2"
+          },
+          {
+            "end": 41,
+            "entity": "round_trip",
+            "start": 29,
+            "value": "aller retour"
+          },
+          {
+            "end": 83,
+            "entity": "origin",
+            "start": 72,
+            "value": "Plattsburgh"
+          },
+          {
+            "end": 104,
+            "entity": "destination",
+            "start": 96,
+            "value": "Sabadell"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Salut exactement 2 personnes aller retour je souhaite un billet origine Plattsburgh destination Sabadell"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "1"
+          },
+          {
+            "end": 55,
+            "entity": "destination",
+            "start": 49,
+            "value": "Nulato"
+          },
+          {
+            "end": 87,
+            "entity": "origin",
+            "start": 67,
+            "value": "Pedro Juan Caballero"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour 1 personne J'souhait voyager pour aller aux Nulato provenance Pedro Juan Caballero dans deux semaines"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "destination",
+            "start": 32,
+            "value": "Palmar Sur"
+          },
+          {
+            "end": 62,
+            "entity": "origin",
+            "start": 56,
+            "value": "Charlo"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Aurais tu un billet destination Palmar Sur en allant de Charlo"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "nb_passengers",
+            "start": 2,
+            "value": "5"
+          },
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 34,
+            "value": "Lerwick"
+          },
+          {
+            "end": 54,
+            "entity": "origin",
+            "start": 45,
+            "value": "Dhangarhi"
+          }
+        ],
+        "intent": "flight_search",
+        "text": ". pour 5 Je vais à destination de Lerwick de Dhangarhi"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 47,
+            "entity": "destination",
+            "start": 43,
+            "value": "Uige"
+          },
+          {
+            "end": 57,
+            "entity": "origin",
+            "start": 51,
+            "value": "Figari"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec mon amour bonjour, Je souhait aller à Uige de Figari"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 34,
+            "value": "Boulder"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Je souhaite partir pour aller aux Boulder le weekend prochain"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "entity": "destination",
+            "start": 24,
+            "value": "Saskylakh"
+          },
+          {
+            "end": 57,
+            "entity": "origin",
+            "start": 45,
+            "value": "Poplar Bluff"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "y'a t-il un billet pour Saskylakh origine de Poplar Bluff"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "3"
+          },
+          {
+            "end": 53,
+            "entity": "destination",
+            "start": 41,
+            "value": "Peterborough"
+          },
+          {
+            "end": 73,
+            "entity": "origin",
+            "start": 67,
+            "value": "Monroe"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "exactement 3 j'vais aller pour aller aux Peterborough en allant de Monroe le week prochain"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "entity": "origin",
+            "start": 34,
+            "value": "Magadan"
+          },
+          {
+            "end": 62,
+            "entity": "destination",
+            "start": 54,
+            "value": "Kalbarri"
+          },
+          {
+            "end": 75,
+            "entity": "one_way",
+            "start": 63,
+            "value": "aller-simple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "salut, J'veux un vol en allant de Magadan destination Kalbarri aller-simple"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "entity": "origin",
+            "start": 43,
+            "value": "Queensbury"
+          },
+          {
+            "end": 77,
+            "entity": "destination",
+            "start": 68,
+            "value": "Montluçon"
+          },
+          {
+            "end": 111,
+            "entity": "round_trip",
+            "start": 78,
+            "value": "entre le 08 janvier et 17 octobre"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Peux tu me trouver un billet en partant de Queensbury à destination Montluçon entre le 08 janvier et 17 octobre"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "origin",
+            "start": 38,
+            "value": "Kamembe"
+          },
+          {
+            "end": 66,
+            "entity": "destination",
+            "start": 58,
+            "value": "Pretoria"
+          },
+          {
+            "end": 83,
+            "entity": "one_way",
+            "start": 67,
+            "value": "le 02 avril 2021"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bjr est ce qu'il ya un billet origine Kamembe destination Pretoria le 02 avril 2021"
+      },
+      {
+        "entities": [
+          {
+            "end": 73,
+            "entity": "origin",
+            "start": 56,
+            "value": "Vineyard Haven MA"
+          },
+          {
+            "end": 104,
+            "entity": "destination",
+            "start": 91,
+            "value": "Bowling Green"
+          },
+          {
+            "end": 116,
+            "entity": "one_way",
+            "start": 105,
+            "value": "AllerSimple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonjour est ce que tu peux me trouver un vol origine de Vineyard Haven MA à destination de Bowling Green AllerSimple"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "1"
+          },
+          {
+            "end": 26,
+            "entity": "round_trip",
+            "start": 14,
+            "value": "Aller-Retour"
+          },
+          {
+            "end": 71,
+            "entity": "origin",
+            "start": 58,
+            "value": "Cape Newenham"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour moi seul Aller-Retour Je cherch un billet depuis les Cape Newenham ce mois-ci"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "nb_passengers",
+            "start": 23,
+            "value": "2"
+          },
+          {
+            "end": 65,
+            "entity": "destination",
+            "start": 54,
+            "value": "Scottsbluff"
+          },
+          {
+            "end": 83,
+            "entity": "origin",
+            "start": 77,
+            "value": "Hobart"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "slt dans deux semaines avec mon amour j'veux partir à Scottsbluff origine de Hobart"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "origin",
+            "start": 30,
+            "value": "Swan River"
+          },
+          {
+            "end": 63,
+            "entity": "destination",
+            "start": 53,
+            "value": "Cartwright"
+          },
+          {
+            "end": 81,
+            "entity": "nb_passengers",
+            "start": 64,
+            "value": "5"
+          },
+          {
+            "end": 94,
+            "entity": "round_trip",
+            "start": 82,
+            "value": "aller-retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir, je souhait un vol de Swan River destination Cartwright pour exactement 5 aller-retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "nb_passengers",
+            "start": 19,
+            "value": "3"
+          },
+          {
+            "end": 57,
+            "entity": "destination",
+            "start": 47,
+            "value": "Fort Lewis"
+          },
+          {
+            "end": 79,
+            "entity": "origin",
+            "start": 71,
+            "value": "Collique"
+          },
+          {
+            "end": 92,
+            "entity": "one_way",
+            "start": 80,
+            "value": "aller-simple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "je souhait voyager pour précisemment trois aux Fort Lewis en allant de Collique aller-simple"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "entity": "destination",
+            "start": 26,
+            "value": "Momote"
+          },
+          {
+            "end": 46,
+            "entity": "origin",
+            "start": 40,
+            "value": "Maputo"
+          },
+          {
+            "end": 77,
+            "entity": "round_trip",
+            "start": 47,
+            "value": "entre le 18 décembre et 02 mai"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Je cherche à  partir vers Momote depuis Maputo entre le 18 décembre et 02 mai"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "entity": "destination",
+            "start": 24,
+            "value": "Pyongtaek"
+          },
+          {
+            "end": 56,
+            "entity": "origin",
+            "start": 47,
+            "value": "Bangalore"
+          },
+          {
+            "end": 63,
+            "entity": "nb_passengers",
+            "start": 57,
+            "value": "5"
+          },
+          {
+            "end": 75,
+            "entity": "one_way",
+            "start": 64,
+            "value": "allersimple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir je aimerai pour Pyongtaek en allant de Bangalore pour 5 allersimple"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "entity": "destination",
+            "start": 11,
+            "value": "La Ville De Panama"
+          },
+          {
+            "end": 36,
+            "entity": "nb_passengers",
+            "start": 30,
+            "value": "5"
+          },
+          {
+            "end": 48,
+            "entity": "one_way",
+            "start": 37,
+            "value": "AllerSimple"
+          },
+          {
+            "end": 89,
+            "entity": "origin",
+            "start": 83,
+            "value": "Jiroft"
+          }
+        ],
+        "intent": "flight_search",
+        "text": ", vers les La Ville De Panama pour 5 AllerSimple J'souhait un billet en partant de Jiroft"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "entity": "destination",
+            "start": 23,
+            "value": "Hampton"
+          },
+          {
+            "end": 49,
+            "entity": "origin",
+            "start": 44,
+            "value": "Ninbo"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Aurais tu un billet en Hampton en allant de Ninbo dans 2 mois"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 56,
+            "entity": "destination",
+            "start": 48,
+            "value": "Le Borma"
+          },
+          {
+            "end": 70,
+            "entity": "origin",
+            "start": 60,
+            "value": "Oioiapoque"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec mon pote j'cherche à  partir à destination Le Borma de Oioiapoque"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "5"
+          },
+          {
+            "end": 51,
+            "entity": "destination",
+            "start": 38,
+            "value": "Luang Prabang"
+          },
+          {
+            "end": 60,
+            "entity": "origin",
+            "start": 55,
+            "value": "Suède"
+          },
+          {
+            "end": 73,
+            "entity": "round_trip",
+            "start": 61,
+            "value": "Aller-Retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour cinq Je souhaite partir vers les Luang Prabang de Suède Aller-Retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "entity": "destination",
+            "start": 45,
+            "value": "Nuevo Laredo"
+          },
+          {
+            "end": 77,
+            "entity": "origin",
+            "start": 69,
+            "value": "Richmond"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Cette semaine j'vais partir à destination de Nuevo Laredo origine de Richmond"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 28,
+            "entity": "round_trip",
+            "start": 16,
+            "value": "Aller-Retour"
+          },
+          {
+            "end": 71,
+            "entity": "origin",
+            "start": 60,
+            "value": "Riverton WY"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec mon copain Aller-Retour j'souhait un billet provenance Riverton WY pour cette semaine"
+      },
+      {
+        "entities": [
+          {
+            "end": 4,
+            "entity": "nb_passengers",
+            "start": 2,
+            "value": "1"
+          },
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 29,
+            "value": "Kristiansand"
+          },
+          {
+            "end": 64,
+            "entity": "origin",
+            "start": 53,
+            "value": "San Antonio"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "! un J'vais à destination de Kristiansand depuis les San Antonio"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "origin",
+            "start": 31,
+            "value": "Ciudad Juarez"
+          },
+          {
+            "end": 73,
+            "entity": "destination",
+            "start": 62,
+            "value": "Fond-Du-Lac"
+          },
+          {
+            "end": 91,
+            "entity": "nb_passengers",
+            "start": 74,
+            "value": "1"
+          },
+          {
+            "end": 104,
+            "entity": "round_trip",
+            "start": 92,
+            "value": "Aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "j'veux un billet en partant de Ciudad Juarez à destination de Fond-Du-Lac pour une personne Aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "entity": "destination",
+            "start": 24,
+            "value": "Noshahr"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Je souhait voyager vers Noshahr ce weekend"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "entity": "origin",
+            "start": 28,
+            "value": "Tulsa"
+          },
+          {
+            "end": 52,
+            "entity": "destination",
+            "start": 42,
+            "value": "Sayun Intl"
+          },
+          {
+            "end": 65,
+            "entity": "nb_passengers",
+            "start": 53,
+            "value": "4"
+          },
+          {
+            "end": 93,
+            "entity": "round_trip",
+            "start": 66,
+            "value": "du 11 juillet au 27 janvier"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "J'veux un vol en partant de Tulsa vers le Sayun Intl pour quatres du 11 juillet au 27 janvier"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "5"
+          },
+          {
+            "end": 62,
+            "entity": "destination",
+            "start": 52,
+            "value": "Sacramento"
+          },
+          {
+            "end": 84,
+            "entity": "origin",
+            "start": 76,
+            "value": "Hazleton"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement 5 personnes je cherch à  partir aux Sacramento en allant de Hazleton dans deux semaines"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "origin",
+            "start": 32,
+            "value": "Keene"
+          },
+          {
+            "end": 61,
+            "entity": "destination",
+            "start": 50,
+            "value": "Clyde River"
+          },
+          {
+            "end": 75,
+            "entity": "one_way",
+            "start": 62,
+            "value": "juste l'aller"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "slt j'aimerai un vol origine de Keene destination Clyde River juste l'aller"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 72,
+            "entity": "destination",
+            "start": 52,
+            "value": "Rincon de los Sauces"
+          },
+          {
+            "end": 90,
+            "entity": "origin",
+            "start": 84,
+            "value": "Hyeres"
+          },
+          {
+            "end": 102,
+            "entity": "round_trip",
+            "start": 91,
+            "value": "AllerRetour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec ma soeur Wesh j'aimerai voyager pour aller aux Rincon de los Sauces origine de Hyeres AllerRetour"
+      },
+      {
+        "entities": [
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 30,
+            "value": "Ozuki"
+          },
+          {
+            "end": 54,
+            "entity": "origin",
+            "start": 47,
+            "value": "Phoenix"
+          },
+          {
+            "end": 67,
+            "entity": "round_trip",
+            "start": 55,
+            "value": "Aller-Retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonsoir je cherch à partir en Ozuki provenance Phoenix Aller-Retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 62,
+            "entity": "destination",
+            "start": 50,
+            "value": "Phong Savanh"
+          },
+          {
+            "end": 79,
+            "entity": "origin",
+            "start": 74,
+            "value": "Iraan"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "le weekend prochain J'cherche à  voyager vers les Phong Savanh provenance Iraan"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "entity": "nb_passengers",
+            "start": 6,
+            "value": "2"
+          },
+          {
+            "end": 32,
+            "entity": "round_trip",
+            "start": 20,
+            "value": "Aller retour"
+          },
+          {
+            "end": 70,
+            "entity": "origin",
+            "start": 62,
+            "value": "Ballarat"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "salut avec mon pote Aller retour j'cherch un billet direction Ballarat"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "origin",
+            "start": 34,
+            "value": "Scampton"
+          },
+          {
+            "end": 50,
+            "entity": "destination",
+            "start": 45,
+            "value": "Minot"
+          },
+          {
+            "end": 63,
+            "entity": "one_way",
+            "start": 51,
+            "value": "aller-simple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Salut je veux un billet depuis le Scampton à Minot aller-simple"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "nb_passengers",
+            "start": 23,
+            "value": "6"
+          },
+          {
+            "end": 46,
+            "entity": "destination",
+            "start": 42,
+            "value": "Gifu"
+          },
+          {
+            "end": 64,
+            "entity": "origin",
+            "start": 58,
+            "value": "Sabang"
+          },
+          {
+            "end": 77,
+            "entity": "one_way",
+            "start": 65,
+            "value": "aller simple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Slt je souhaite partir précisemment six à Gifu provenance Sabang aller simple"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "entity": "origin",
+            "start": 30,
+            "value": "Devonport"
+          },
+          {
+            "end": 48,
+            "entity": "destination",
+            "start": 43,
+            "value": "Laeso"
+          },
+          {
+            "end": 61,
+            "entity": "nb_passengers",
+            "start": 49,
+            "value": "3"
+          },
+          {
+            "end": 74,
+            "entity": "round_trip",
+            "start": 62,
+            "value": "Aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Je vais prendre un vol depuis Devonport en Laeso exactement 3 Aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "entity": "origin",
+            "start": 39,
+            "value": "Ruegen"
+          },
+          {
+            "end": 60,
+            "entity": "destination",
+            "start": 56,
+            "value": "Gary"
+          },
+          {
+            "end": 75,
+            "entity": "nb_passengers",
+            "start": 61,
+            "value": "6"
+          },
+          {
+            "end": 88,
+            "entity": "round_trip",
+            "start": 76,
+            "value": "aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "salut je prends un billet en allant de Ruegen direction Gary précisemment 6 aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "entity": "origin",
+            "start": 26,
+            "value": "Gurupi"
+          },
+          {
+            "end": 60,
+            "entity": "destination",
+            "start": 50,
+            "value": "Skrydstrup"
+          },
+          {
+            "end": 69,
+            "entity": "one_way",
+            "start": 61,
+            "value": "le 18/10"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "y'a t-il un billet depuis Gurupi à destination de Skrydstrup le 18/10"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "nb_passengers",
+            "start": 2,
+            "value": "3"
+          },
+          {
+            "end": 55,
+            "entity": "destination",
+            "start": 49,
+            "value": "Chalon"
+          },
+          {
+            "end": 78,
+            "entity": "origin",
+            "start": 67,
+            "value": "Port Menier"
+          }
+        ],
+        "intent": "flight_search",
+        "text": ". avec 2 amis J'cherche à  voyage pour aller aux Chalon depuis les Port Menier"
+      },
+      {
+        "entities": [
+          {
+            "end": 61,
+            "entity": "destination",
+            "start": 53,
+            "value": "Graulhet"
+          },
+          {
+            "end": 76,
+            "entity": "origin",
+            "start": 70,
+            "value": "Gurney"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Le mois prochain j'cherche à  voyager pour aller aux Graulhet origine Gurney"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "nb_passengers",
+            "start": 28,
+            "value": "2"
+          },
+          {
+            "end": 62,
+            "entity": "destination",
+            "start": 52,
+            "value": "Georgetown"
+          },
+          {
+            "end": 87,
+            "entity": "origin",
+            "start": 74,
+            "value": "Playa Baracoa"
+          },
+          {
+            "end": 99,
+            "entity": "one_way",
+            "start": 88,
+            "value": "AllerSimple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonjour, Je cherch à  aller avec mon amour vers les Georgetown depuis les Playa Baracoa AllerSimple"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "4"
+          },
+          {
+            "end": 66,
+            "entity": "destination",
+            "start": 57,
+            "value": "Boa Vista"
+          },
+          {
+            "end": 80,
+            "entity": "origin",
+            "start": 74,
+            "value": "Denver"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec ma femme et mes deux enfants bjr, Je vais partir en Boa Vista depuis Denver"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "entity": "nb_passengers",
+            "start": 20,
+            "value": "4"
+          },
+          {
+            "end": 63,
+            "entity": "destination",
+            "start": 57,
+            "value": "Shiraz"
+          },
+          {
+            "end": 78,
+            "entity": "origin",
+            "start": 67,
+            "value": "King Salmon"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Wesh dans deux mois quatres J'souhait voyage destination Shiraz de King Salmon"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "entity": "origin",
+            "start": 28,
+            "value": "Americus"
+          },
+          {
+            "end": 48,
+            "entity": "destination",
+            "start": 40,
+            "value": "Kalamata"
+          },
+          {
+            "end": 53,
+            "entity": "nb_passengers",
+            "start": 49,
+            "value": "2"
+          },
+          {
+            "end": 76,
+            "entity": "round_trip",
+            "start": 54,
+            "value": "du 13 mars au 09 avril"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "J'vais prendre un billet de Americus en Kalamata deux du 13 mars au 09 avril"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 59,
+            "entity": "destination",
+            "start": 54,
+            "value": "Bakou"
+          },
+          {
+            "end": 74,
+            "entity": "origin",
+            "start": 68,
+            "value": "Labuan"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement 2 je cherch à voyage à destination de Bakou origine Labuan"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "4"
+          },
+          {
+            "end": 52,
+            "entity": "destination",
+            "start": 46,
+            "value": "Multan"
+          },
+          {
+            "end": 82,
+            "entity": "origin",
+            "start": 67,
+            "value": "Bakshi Ka Talab"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec trois de mes amis j'veux aller direction Multan en partant de Bakshi Ka Talab"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "entity": "nb_passengers",
+            "start": 9,
+            "value": "6"
+          },
+          {
+            "end": 60,
+            "entity": "round_trip",
+            "start": 34,
+            "value": "entre le 09 mai et 21 juin"
+          },
+          {
+            "end": 101,
+            "entity": "origin",
+            "start": 97,
+            "value": "Eysk"
+          },
+          {
+            "end": 122,
+            "entity": "destination",
+            "start": 112,
+            "value": "Tuscaloosa"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonsoir! exactement six personnes entre le 09 mai et 21 juin J'vais prendre un billet depuis les Eysk direction Tuscaloosa"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "entity": "destination",
+            "start": 23,
+            "value": "El Obeid"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Je cherche à  partir à El Obeid le mois prochain"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "entity": "origin",
+            "start": 41,
+            "value": "Chenega"
+          },
+          {
+            "end": 60,
+            "entity": "destination",
+            "start": 52,
+            "value": "Huatulco"
+          },
+          {
+            "end": 88,
+            "entity": "round_trip",
+            "start": 61,
+            "value": "du 05 juillet au 05 janvier"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bsr est ce qu'il ya un billet provenance Chenega au Huatulco du 05 juillet au 05 janvier"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "destination",
+            "start": 30,
+            "value": "Ouarzazate"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "je veux partir pour aller aux Ouarzazate ce week-end"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "entity": "origin",
+            "start": 21,
+            "value": "Olekminsk"
+          },
+          {
+            "end": 54,
+            "entity": "destination",
+            "start": 40,
+            "value": "Vieques Island"
+          },
+          {
+            "end": 76,
+            "entity": "nb_passengers",
+            "start": 55,
+            "value": "3"
+          },
+          {
+            "end": 89,
+            "entity": "round_trip",
+            "start": 77,
+            "value": "Aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "je cherche un vol de Olekminsk vers les Vieques Island avec deux de mes amis Aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "entity": "destination",
+            "start": 48,
+            "value": "Maputo"
+          },
+          {
+            "end": 73,
+            "entity": "origin",
+            "start": 68,
+            "value": "Fukui"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Ce week-end J'cherche à  aller à destination de Maputo en allant de Fukui"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "6"
+          },
+          {
+            "end": 64,
+            "entity": "destination",
+            "start": 57,
+            "value": "Strahan"
+          },
+          {
+            "end": 78,
+            "entity": "origin",
+            "start": 73,
+            "value": "Olpoi"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour précisemment six personnes J'souhaite à destination Strahan origine Olpoi"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 10,
+            "value": "Mayumba"
+          },
+          {
+            "end": 40,
+            "entity": "nb_passengers",
+            "start": 18,
+            "value": "4"
+          },
+          {
+            "end": 56,
+            "entity": "one_way",
+            "start": 41,
+            "value": "le 08 juin 2019"
+          },
+          {
+            "end": 97,
+            "entity": "origin",
+            "start": 90,
+            "value": "Elstree"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Direction Mayumba avec trois de mes amis le 08 juin 2019 je souhaite un billet provenance Elstree"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 48,
+            "entity": "destination",
+            "start": 42,
+            "value": "Oamaru"
+          },
+          {
+            "end": 68,
+            "entity": "origin",
+            "start": 57,
+            "value": "Banjarmasin"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "deux personnes , J'cherche à  partir vers Oamaru origine Banjarmasin la semaine prochaine"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "nb_passengers",
+            "start": 8,
+            "value": "2"
+          },
+          {
+            "end": 34,
+            "entity": "round_trip",
+            "start": 22,
+            "value": "Aller retour"
+          },
+          {
+            "end": 77,
+            "entity": "origin",
+            "start": 65,
+            "value": "Bir Moghrein"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonjour avec ma soeur Aller retour Je prend un billet depuis les Bir Moghrein le week prochain"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "entity": "destination",
+            "start": 36,
+            "value": "Oscoda"
+          },
+          {
+            "end": 62,
+            "entity": "origin",
+            "start": 54,
+            "value": "Falmouth"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Dans 3 mois, je cherch à  partir au Oscoda origine de Falmouth"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "origin",
+            "start": 34,
+            "value": "Wanaka"
+          },
+          {
+            "end": 55,
+            "entity": "destination",
+            "start": 44,
+            "value": "Duncan Town"
+          },
+          {
+            "end": 64,
+            "entity": "one_way",
+            "start": 56,
+            "value": "le 19/10"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "je vais prendre un billet origine Wanaka en Duncan Town le 19/10"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "4"
+          },
+          {
+            "end": 76,
+            "entity": "destination",
+            "start": 69,
+            "value": "Dunedin"
+          },
+          {
+            "end": 96,
+            "entity": "origin",
+            "start": 88,
+            "value": "El Obeid"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "précisemment quatres personnes Bonjour j'cherche à  voyager vers les Dunedin depuis les El Obeid"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "entity": "destination",
+            "start": 25,
+            "value": "Leipzig"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "J'cherche à  voyager aux Leipzig la semaine prochaine"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "nb_passengers",
+            "start": 23,
+            "value": "2"
+          },
+          {
+            "end": 68,
+            "entity": "destination",
+            "start": 60,
+            "value": "Portland"
+          },
+          {
+            "end": 83,
+            "entity": "origin",
+            "start": 76,
+            "value": "Madinah"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonjour dans deux mois avec mon copain Je aimerai partir en Portland depuis Madinah"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 66,
+            "entity": "destination",
+            "start": 58,
+            "value": "Moquegua"
+          },
+          {
+            "end": 95,
+            "entity": "origin",
+            "start": 75,
+            "value": "De Ile De San Andres"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec mon copain Bonsoir, Je veux voyager à destination de Moquegua origine De Ile De San Andres"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "3"
+          },
+          {
+            "end": 43,
+            "entity": "destination",
+            "start": 37,
+            "value": "Rhodes"
+          },
+          {
+            "end": 63,
+            "entity": "origin",
+            "start": 55,
+            "value": "Erzincan"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec 2 amis J'aimerai aller vers les Rhodes depuis les Erzincan"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "nb_passengers",
+            "start": 9,
+            "value": "6"
+          },
+          {
+            "end": 76,
+            "entity": "destination",
+            "start": 67,
+            "value": "Chongqing"
+          },
+          {
+            "end": 96,
+            "entity": "origin",
+            "start": 84,
+            "value": "Barquisimeto"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir! pour précisemment six personnes Je veux aller destination Chongqing depuis Barquisimeto"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "entity": "origin",
+            "start": 38,
+            "value": "Galena"
+          },
+          {
+            "end": 64,
+            "entity": "destination",
+            "start": 53,
+            "value": "Ras Tanajib"
+          },
+          {
+            "end": 78,
+            "entity": "nb_passengers",
+            "start": 65,
+            "value": "1"
+          },
+          {
+            "end": 91,
+            "entity": "round_trip",
+            "start": 79,
+            "value": "Aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bsr! j'vais prendre un vol provenance Galena vers le Ras Tanajib exactement un Aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "origin",
+            "start": 32,
+            "value": "Clovis"
+          },
+          {
+            "end": 56,
+            "entity": "destination",
+            "start": 49,
+            "value": "Madison"
+          },
+          {
+            "end": 72,
+            "entity": "nb_passengers",
+            "start": 57,
+            "value": "2"
+          },
+          {
+            "end": 85,
+            "entity": "round_trip",
+            "start": 73,
+            "value": "Aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "J'souhaite un billet depuis les Clovis direction Madison avec mon copain Aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "3"
+          },
+          {
+            "end": 74,
+            "entity": "destination",
+            "start": 64,
+            "value": "Vero Beach"
+          },
+          {
+            "end": 88,
+            "entity": "origin",
+            "start": 83,
+            "value": "Cizre"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement 3 personnes salut Je cherche à  aller direction Vero Beach origine Cizre pour cette semaine"
+      },
+      {
+        "entities": [
+          {
+            "end": 64,
+            "entity": "destination",
+            "start": 45,
+            "value": "International Falls"
+          },
+          {
+            "end": 87,
+            "entity": "origin",
+            "start": 76,
+            "value": "Anelghowhat"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonsoir est ce qu'il ya un vol ce mois-ci au International Falls origine de Anelghowhat"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "entity": "nb_passengers",
+            "start": 4,
+            "value": "5"
+          },
+          {
+            "end": 44,
+            "entity": "round_trip",
+            "start": 32,
+            "value": "aller retour"
+          },
+          {
+            "end": 85,
+            "entity": "origin",
+            "start": 72,
+            "value": "Lawrenceville"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "slt pour exactement 5 personnes aller retour J'aimerai un billet depuis Lawrenceville cette semaine"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "entity": "destination",
+            "start": 20,
+            "value": "Qasim"
+          },
+          {
+            "end": 50,
+            "entity": "origin",
+            "start": 40,
+            "value": "Sao Carlos"
+          },
+          {
+            "end": 62,
+            "entity": "nb_passengers",
+            "start": 51,
+            "value": "4"
+          },
+          {
+            "end": 76,
+            "entity": "one_way",
+            "start": 63,
+            "value": "le 02/04/2020"
+          }
+        ],
+        "intent": "flight_search",
+        "text": ", J'cherche à  pour Qasim en partant de Sao Carlos avec 3 amis le 02/04/2020"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "nb_passengers",
+            "start": 2,
+            "value": "1"
+          },
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 32,
+            "value": "Kingstown"
+          },
+          {
+            "end": 62,
+            "entity": "origin",
+            "start": 50,
+            "value": "Villacoublay"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "! seul j'cherche à  partir pour Kingstown origine Villacoublay"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "nb_passengers",
+            "start": 4,
+            "value": "4"
+          },
+          {
+            "end": 28,
+            "entity": "round_trip",
+            "start": 16,
+            "value": "Aller retour"
+          },
+          {
+            "end": 65,
+            "entity": "origin",
+            "start": 60,
+            "value": "Grove"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bjr avec 3 amis Aller retour j'souhait un vol en partant de Grove"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "entity": "destination",
+            "start": 18,
+            "value": "Saransk"
+          },
+          {
+            "end": 47,
+            "entity": "origin",
+            "start": 39,
+            "value": "Kunovice"
+          },
+          {
+            "end": 65,
+            "entity": "nb_passengers",
+            "start": 48,
+            "value": "2"
+          },
+          {
+            "end": 82,
+            "entity": "one_way",
+            "start": 66,
+            "value": "le 12 avril 2019"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "salut. Je vais au Saransk en allant de Kunovice pour exactement 2 le 12 avril 2019"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "destination",
+            "start": 5,
+            "value": "Mattala"
+          },
+          {
+            "end": 17,
+            "entity": "nb_passengers",
+            "start": 13,
+            "value": "1"
+          },
+          {
+            "end": 30,
+            "entity": "one_way",
+            "start": 18,
+            "value": "aller-simple"
+          },
+          {
+            "end": 73,
+            "entity": "origin",
+            "start": 61,
+            "value": "Villa Garzon"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Vers Mattala solo aller-simple j'vais prendre un vol origine Villa Garzon"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "entity": "nb_passengers",
+            "start": 5,
+            "value": "6"
+          },
+          {
+            "end": 74,
+            "entity": "destination",
+            "start": 63,
+            "value": "Tirgu Mures"
+          },
+          {
+            "end": 99,
+            "entity": "origin",
+            "start": 89,
+            "value": "Chinchilla"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "wesh exactement 6 personnes j'cherch à partir à destination de Tirgu Mures en partant de Chinchilla"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "4"
+          },
+          {
+            "end": 80,
+            "entity": "destination",
+            "start": 61,
+            "value": "Sao Pedro Da Aldeia"
+          },
+          {
+            "end": 93,
+            "entity": "origin",
+            "start": 84,
+            "value": "Zhanjiang"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour exactement quatres personnes J'veux voyager destination Sao Pedro Da Aldeia de Zhanjiang cette semaine"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "entity": "origin",
+            "start": 45,
+            "value": "Grenade"
+          },
+          {
+            "end": 74,
+            "entity": "destination",
+            "start": 62,
+            "value": "Nakhitchevan"
+          },
+          {
+            "end": 95,
+            "entity": "nb_passengers",
+            "start": 75,
+            "value": "3"
+          },
+          {
+            "end": 120,
+            "entity": "round_trip",
+            "start": 96,
+            "value": "du 24 juin au 17 janvier"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir je vais prendre un billet depuis les Grenade vers les Nakhitchevan pour trois personnes du 24 juin au 17 janvier"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "entity": "origin",
+            "start": 26,
+            "value": "Troy"
+          },
+          {
+            "end": 55,
+            "entity": "destination",
+            "start": 48,
+            "value": "Vilnius"
+          },
+          {
+            "end": 68,
+            "entity": "round_trip",
+            "start": 56,
+            "value": "Aller retour"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "y a t il un billet depuis Troy à destination de Vilnius Aller retour"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "destination",
+            "start": 40,
+            "value": "Bolivar"
+          },
+          {
+            "end": 64,
+            "entity": "origin",
+            "start": 59,
+            "value": "Ukhta"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "est ce qu'il ya un billet à destination Bolivar origine de Ukhta"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "entity": "destination",
+            "start": 49,
+            "value": "Coleman"
+          },
+          {
+            "end": 76,
+            "entity": "origin",
+            "start": 65,
+            "value": "Mandritsara"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour les vacances de Paques. Je veux partir vers Coleman origine Mandritsara"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 14,
+            "value": "Florence"
+          },
+          {
+            "end": 34,
+            "entity": "nb_passengers",
+            "start": 23,
+            "value": "5"
+          },
+          {
+            "end": 46,
+            "entity": "one_way",
+            "start": 35,
+            "value": "allersimple"
+          },
+          {
+            "end": 73,
+            "entity": "origin",
+            "start": 65,
+            "value": "Valesdir"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bjr direction Florence 5 personnes allersimple J'prend un vol de Valesdir"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "1"
+          },
+          {
+            "end": 43,
+            "entity": "round_trip",
+            "start": 8,
+            "value": "entre le 07 janvier et 10 septembre"
+          },
+          {
+            "end": 80,
+            "entity": "origin",
+            "start": 75,
+            "value": "Siuna"
+          },
+          {
+            "end": 98,
+            "entity": "destination",
+            "start": 93,
+            "value": "Jijel"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "pour un entre le 07 janvier et 10 septembre j'prend un billet en allant de Siuna destination Jijel"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "entity": "nb_passengers",
+            "start": 4,
+            "value": "4"
+          },
+          {
+            "end": 49,
+            "entity": "round_trip",
+            "start": 38,
+            "value": "AllerRetour"
+          },
+          {
+            "end": 91,
+            "entity": "origin",
+            "start": 82,
+            "value": "Bangalore"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Slt avec ma femme et mes deux enfants AllerRetour Je aimerai un billet origine de Bangalore dans 3 mois"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "entity": "nb_passengers",
+            "start": 18,
+            "value": "4"
+          },
+          {
+            "end": 58,
+            "entity": "destination",
+            "start": 50,
+            "value": "Arrecife"
+          },
+          {
+            "end": 76,
+            "entity": "origin",
+            "start": 70,
+            "value": "Wassau"
+          },
+          {
+            "end": 88,
+            "entity": "one_way",
+            "start": 77,
+            "value": "allersimple"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "je souhait partir exactement 4 personnes vers les Arrecife depuis les Wassau allersimple"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "entity": "nb_passengers",
+            "start": 9,
+            "value": "6"
+          },
+          {
+            "end": 44,
+            "entity": "destination",
+            "start": 38,
+            "value": "Venice"
+          },
+          {
+            "end": 61,
+            "entity": "origin",
+            "start": 52,
+            "value": "Soukhoumi"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonsoir. précisemment six J'vais pour Venice depuis Soukhoumi"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 43,
+            "entity": "round_trip",
+            "start": 16,
+            "value": "du 04 septembre au 13 avril"
+          },
+          {
+            "end": 84,
+            "entity": "origin",
+            "start": 76,
+            "value": "Thurrock"
+          },
+          {
+            "end": 101,
+            "entity": "destination",
+            "start": 95,
+            "value": "Udbina"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "exactement deux du 04 septembre au 13 avril je souhait un billet origine de Thurrock direction Udbina"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "entity": "destination",
+            "start": 21,
+            "value": "New York"
+          },
+          {
+            "end": 47,
+            "entity": "origin",
+            "start": 41,
+            "value": "Moruya"
+          },
+          {
+            "end": 61,
+            "entity": "nb_passengers",
+            "start": 48,
+            "value": "1"
+          },
+          {
+            "end": 72,
+            "entity": "one_way",
+            "start": 62,
+            "value": "le 26 mars"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "Bonsoir J'souhaite à New York provenance Moruya pour moi seul le 26 mars"
+      },
+      {
+        "entities": [
+          {
+            "end": 47,
+            "entity": "origin",
+            "start": 38,
+            "value": "Turweston"
+          },
+          {
+            "end": 65,
+            "entity": "destination",
+            "start": 60,
+            "value": "Ocala"
+          },
+          {
+            "end": 100,
+            "entity": "round_trip",
+            "start": 66,
+            "value": "entre le 18 juillet et 11 décembre"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "est ce qu'il y'a un vol en partant de Turweston destination Ocala entre le 18 juillet et 11 décembre"
+      },
+      {
+        "entities": [
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 12,
+            "value": "Togiak Village"
+          },
+          {
+            "end": 28,
+            "entity": "nb_passengers",
+            "start": 27,
+            "value": "3"
+          },
+          {
+            "end": 45,
+            "entity": "one_way",
+            "start": 29,
+            "value": "le 24 avril 2020"
+          },
+          {
+            "end": 81,
+            "entity": "origin",
+            "start": 74,
+            "value": "Taux de"
+          }
+        ],
+        "intent": "flight_search",
+        "text": ". direction Togiak Village 3 le 24 avril 2020 je cherch un vol depuis les Taux de"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "entity": "nb_passengers",
+            "start": 21,
+            "value": "1"
+          },
+          {
+            "end": 65,
+            "entity": "destination",
+            "start": 60,
+            "value": "Celle"
+          },
+          {
+            "end": 88,
+            "entity": "origin",
+            "start": 77,
+            "value": "De Teesside"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "bonsoir! dans 2 mois pour une personne J'aimerai voyage aux Celle depuis les De Teesside"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "nb_passengers",
+            "start": 0,
+            "value": "2"
+          },
+          {
+            "end": 45,
+            "entity": "destination",
+            "start": 36,
+            "value": "Edimbourg"
+          },
+          {
+            "end": 75,
+            "entity": "origin",
+            "start": 57,
+            "value": "Pinar Del Rio Nord"
+          }
+        ],
+        "intent": "flight_search",
+        "text": "avec mon copain Je veux partir vers Edimbourg depuis les Pinar Del Rio Nord cette semaine"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "avec mon pote",
+          "pour exactement 2 personnes",
+          "avec mon amour",
+          "avec ma soeur",
+          "pour deux personnes",
+          "pour précisemment deux",
+          "avec mon frère",
+          "précisemment deux personnes",
+          "avec mon copain",
+          "deux",
+          "pour précisemment 2 personnes",
+          "avec ma copine",
+          "exactement 2 personnes",
+          "deux personnes",
+          "avec mon amie",
+          "2 personnes",
+          "pour 2 personnes",
+          "pour précisemment deux personnes",
+          "avec mon père",
+          "avec ma mère",
+          "pour exactement 2",
+          "2",
+          "précisemment deux",
+          "avec ma femme",
+          "précisemment 2",
+          "pour exactement deux personnes",
+          "précisemment 2 personnes",
+          "pour précisemment 2",
+          "exactement deux personnes",
+          "exactement deux",
+          "exactement 2",
+          "pour deux",
+          "avec mon ami",
+          "pour exactement deux",
+          "pour 2"
+        ],
+        "value": "2"
+      },
+      {
+        "synonyms": [
+          "pour précisemment 6 personnes",
+          "pour précisemment 6",
+          "pour exactement six personnes",
+          "exactement 6 personnes",
+          "exactement six",
+          "pour exactement six",
+          "précisemment six",
+          "précisemment 6",
+          "pour 6",
+          "pour six",
+          "pour 6 personnes",
+          "pour six personnes",
+          "pour précisemment six",
+          "exactement six personnes",
+          "6 personnes",
+          "pour précisemment six personnes",
+          "6",
+          "exactement 6",
+          "pour exactement 6 personnes",
+          "précisemment 6 personnes",
+          "pour exactement 6",
+          "six personnes",
+          "six",
+          "précisemment six personnes"
+        ],
+        "value": "6"
+      },
+      {
+        "synonyms": [
+          "North Amerique",
+          "Amérique du nord"
+        ],
+        "value": "North_America"
+      },
+      {
+        "synonyms": [
+          "5",
+          "pour exactement cinq",
+          "précisemment 5",
+          "exactement 5 personnes",
+          "pour précisemment 5",
+          "pour exactement cinq personnes",
+          "pour 5 personnes",
+          "pour exactement 5",
+          "exactement cinq personnes",
+          "exactement 5",
+          "pour précisemment 5 personnes",
+          "cinq personnes",
+          "5 personnes",
+          "pour cinq personnes",
+          "exactement cinq",
+          "pour cinq",
+          "pour 5",
+          "précisemment cinq personnes",
+          "pour exactement 5 personnes",
+          "cinq",
+          "pour précisemment cinq",
+          "précisemment cinq",
+          "pour précisemment cinq personnes",
+          "précisemment 5 personnes"
+        ],
+        "value": "5"
+      },
+      {
+        "synonyms": [
+          "bar",
+          "faire la fête",
+          "la teuf",
+          "festival",
+          "commémorer",
+          "fêter",
+          "concert",
+          "faire",
+          "célébrer",
+          "fête"
+        ],
+        "value": "Party"
+      },
+      {
+        "synonyms": [
+          "pour exactement une personne",
+          "pour précisemment 1 personne",
+          "exactement une",
+          "1",
+          "pour une personne",
+          "pour 1",
+          "exactement un",
+          "pour précisemment une",
+          "exactement une personne",
+          "pour moi seul",
+          "moi seul",
+          "précisemment 1 personne",
+          "pour exactement 1 personne",
+          "une personne",
+          "pour exactement une",
+          "une",
+          "tout seul",
+          "un",
+          "1 personne",
+          "pour précisemment une personne",
+          "pour 1 personne",
+          "pour exactement 1",
+          "pour précisemment un",
+          "pour moi",
+          "exactement 1 personne",
+          "pour précisemment 1",
+          "précisemment un",
+          "seul",
+          "solo",
+          "précisemment une",
+          "pour une",
+          "pour exactement un",
+          "pour un",
+          "précisemment une personne",
+          "exactement 1",
+          "précisemment 1"
+        ],
+        "value": "1"
+      },
+      {
+        "synonyms": [
+          "pour exactement 3 personnes",
+          "avec 2 amis",
+          "pour trois personnes",
+          "exactement 3 personnes",
+          "pour précisemment trois personnes",
+          "pour précisemment 3 personnes",
+          "trois",
+          "exactement 3",
+          "pour exactement trois",
+          "3 personnes",
+          "exactement trois personnes",
+          "pour précisemment 3",
+          "pour précisemment trois",
+          "précisemment trois personnes",
+          "précisemment 3",
+          "pour 3 personnes",
+          "pour exactement trois personnes",
+          "pour exactement 3",
+          "exactement trois",
+          "pour trois",
+          "avec deux de mes amis",
+          "précisemment 3 personnes",
+          "précisemment trois",
+          "trois personnes",
+          "3",
+          "pour 3"
+        ],
+        "value": "3"
+      },
+      {
+        "synonyms": [
+          "quatres",
+          "pour précisemment 4",
+          "avec ma femme et mes 2 enfants",
+          "pour quatres personnes",
+          "avec ma femme et mes deux enfants",
+          "précisemment 4 personnes",
+          "pour exactement quatres",
+          "pour 4",
+          "pour exactement 4",
+          "avec 3 amis",
+          "pour précisemment 4 personnes",
+          "4 personnes",
+          "pour quatres",
+          "pour exactement quatres personnes",
+          "pour précisemment quatres personnes",
+          "exactement 4",
+          "quatres personnes",
+          "avec trois de mes amis",
+          "exactement quatres",
+          "précisemment quatres",
+          "exactement quatres personnes",
+          "pour 4 personnes",
+          "pour exactement 4 personnes",
+          "pour précisemment quatres",
+          "précisemment quatres personnes",
+          "4",
+          "précisemment 4",
+          "exactement 4 personnes"
+        ],
+        "value": "4"
+      },
+      {
+        "synonyms": [
+          "asie",
+          "asiatique",
+          "asia"
+        ],
+        "value": "Asie"
+      },
+      {
+        "synonyms": [
+          "amoureux",
+          "en couple",
+          "saint-valentin",
+          "valentine"
+        ],
+        "value": "Romantic"
+      },
+      {
+        "synonyms": [
+          "Amérique latine",
+          "latin america",
+          "Amérique du sud"
+        ],
+        "value": "South_america"
+      },
+      {
+        "synonyms": [
+          "Safari",
+          "Desert",
+          "afrique",
+          "Méditerranée",
+          "Camping",
+          "Dune"
+        ],
+        "value": "Africa"
+      },
+      {
+        "synonyms": [
+          "Pays scandinaves",
+          "europe",
+          "Scandinavia",
+          "Europa",
+          "Scandinavie",
+          "europa",
+          "Iceland"
+        ],
+        "value": "Europe"
+      },
+      {
+        "synonyms": [
+          "restaurants",
+          "plats",
+          "pizza",
+          "bière",
+          "vin",
+          "burgers"
+        ],
+        "value": "Food"
+      }
+    ],
+    "regex_features": []
+  }
+}
