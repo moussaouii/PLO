@@ -20,6 +20,13 @@ Python3 and pip can be installed using the following pip command
 sudo apt-get install python3
 sudo apt-get install python3-pip
 ```
+you should  install the duckling pipeline using the following command :
+
+```
+sudo docker pull rasa/duckling
+```
+(Duckling is shipped with modules that parse temporal expressions in English, Spanish, French, Italian and Chinese . It recognizes dates and times described in many ways )
+
 - You need also a mongoDB (in our case we use  MongoDB Atlas a cloud databases)
 
 - You need also a rasa nlu traind model (in this project you find rasa nlu traind model for flight search in **./models/current/nlu**)
@@ -77,7 +84,21 @@ and inheritance  as mentioned in the example above
 
 ### Running project
 
-you can run this project as follows
+you should run this command to launch the duckling container (when you want to use your model):
+
+```
+docker run -p 8000:8000 rasa/duckling
+```
+(In our case we launch duckling in container docker in the port 8000. this is specify in config file 
+before model training. So you can change this in the config file)
+
+```
+  - name: "ner_duckling_http"
+  # url of the running duckling server
+  url: "http://0.0.0.0:8000"
+```
+
+then you can run this project as follows
 ```
 python app.py
 ```
