@@ -63,14 +63,7 @@ You can now view frontend in the browser.
 
 ![API schema](img_readme/frontend_screen2.png)
 
-### Autors
 
-- Ismail Moussaoui
-- Amine Charifi
-- Othmane El Fetnassi
-- Youssef Bendagha
-- M'hand Glilah
-- Marouane Labyad 
 
 
 
