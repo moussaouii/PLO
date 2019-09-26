@@ -256,11 +256,3 @@ If you use mongoDB Atlas this project should be deployed in Heroku (Cloud Applic
 without problems but not in the free version because the loading of rasa nlu model in the ram requires more than 512 Mb 
 while the free version has only 512 Mb of ram
 
-### Autors
-
-- Ismail Moussaoui
-- Amine Charifi
-- Othmane El Fetnassi
-- Youssef Bendagha
-- M'hand Glilah
-- Marouane Labyad 
